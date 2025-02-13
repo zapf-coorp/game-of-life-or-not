@@ -1,0 +1,21 @@
+{
+  "name": "game-of-life-or-not",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "serve": "http-server . -p 8000",
+    "dev": "concurrently \"npm run watch\" \"npm run serve\""
+  },
+  "author": "hilZapf",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "concurrently": "^9.1.2",
+    "http-server": "^14.1.1",
+    "typescript": "^5.7.3"
+  }
+}
