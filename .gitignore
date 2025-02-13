@@ -128,3 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Travando os .lock
+# Só descomentar na Máquina do @Hil que estará servindo de referência
+yarn.lock
+package-lock.json
